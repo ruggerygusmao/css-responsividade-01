@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Varela+Round&display=swap');
+
+*{
+    box-sizing: border-box;
+    background-color: #5F7285;
+}
+
+.titulo-principal{
+    font-family: 'Nunito';
+    font-size: 105px;
+    margin-top: 0;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.texto{
+    font-family: 'Varela Round';
+    font-size: 14px;
+    color: #fff;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.items p{
+    text-align: justify;
+    margin-right: 20px;
+}
+.items img{
+    width: 35vw;
+    margin-top: 15px;
+    border-radius: 7px;
+}
+
+.btn{
+    background-color: #829DAD;
+    color: #fff;
+    width: 5vw;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.btn:hover{
+    background-color: #36B0E0;
+}
+
+a{
+    text-decoration: none;
+    background-color: #829DAD;
+    color: #fff;
+}
+
+a:hover{
+    background-color: #36B0E0;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+    opacity: 0.5;
+}
+
+@media (max-width:500px){
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .titulo-principal{
+        font-size: 50px;
+    }
+
+    .texto{
+        font-size: 16px;
+    }
+
+    .items img{
+        width: 60vw;
+    }
+
+    .btn{
+        width: 15vw;
+    }
+}
